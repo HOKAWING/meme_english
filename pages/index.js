@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect } from "react";
 
 export default function HomePage() {
     const router = useRouter();
