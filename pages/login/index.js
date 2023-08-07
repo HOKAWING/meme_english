@@ -33,38 +33,26 @@ export default function LoginPage() {
 
   return (
       <>
+        {/*https://getbootstrap.com/docs/5.3/forms/form-control/*/}
         <style jsx global>{`body { background: #EBD7FA;}`}</style>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh'}}>
           <form onSubmit={handleSubmit(onFormSubmit)}>
             <div style={{margin:'20px 20px 20px 43px'}}>
-              <Image src="/logo.jpg" width={204} height={140} />
+              <Image src="/logo2.jpg" width={180} height={140} />
             </div>
-            <InputField
-              type="username"
-              name="username"
-              label="用戶名"
-              style={{justifyContent: 'center',margin:'5px'}}
-              error={errors.username && errors.username.message}
-              {...register("username", {
-                required: "請輸入用戶名",
-              })}
-            />
-            <InputField
-              type="password"
-              name="password"
-              label="密碼"
-              style={{justifyContent: 'center',margin:'5px 0px 5px 20px'}}
-              error={errors.password && errors.password.message}
-              {...register("password", {
-                required: "請輸入密碼",
-              })}
-            />
 
-            {error && (
-              <p className="w-full rounded-sm text-center bg-red-200 border border-red-500 text-red-500">
-                {error}
-              </p>
-            )}
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">用户名</span>
+              <input type="text" className="form-control" aria-label="用户名"
+                     aria-describedby="basic-addon1"/>
+            </div>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">密码</span>
+              <input type="text" className="form-control" aria-label="密码"
+                     aria-describedby="basic-addon1"/>
+            </div>
+
             <button
               type="submit"
               className="mt-3 disabled:opacity-30 bg-primary hover:bg-primary_hover w-full p-1 border-0 rounded-md text-white text-base m-auto px-2"

@@ -1,6 +1,7 @@
 import { forwardRef } from "react";
 import InputDate from "./InputDate";
 import { Controller } from "react-hook-form";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const InputField = forwardRef(({ type = "text", name, label, error, control, rules, ...inputAttr }, ref) => {
     const onChange = (e) => {
@@ -8,10 +9,9 @@ const InputField = forwardRef(({ type = "text", name, label, error, control, rul
     }
 
     return (
-      <div className="w-full">
+      <div>
         <label
           htmlFor={name}
-          className="m-0 p-0 block text-sm font-medium text-gray-900"
         >
           {label}
         </label>
@@ -39,7 +39,6 @@ const InputField = forwardRef(({ type = "text", name, label, error, control, rul
                type={type}
                name={name}
                onChange={onChange}
-               className="block w-full shadow-sm rounded-md border border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 outline-none px-7 py-1"
                {...inputAttr} />
         }
         {error && <p className="text-sm mt-2 text-red-500">{error}</p>}
