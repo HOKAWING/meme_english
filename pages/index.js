@@ -6,4 +6,5 @@ export default function HomePage() {
     useEffect(() => {
         router.push("/login");
     }, []);
+
 }

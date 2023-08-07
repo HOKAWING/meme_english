@@ -34,34 +34,35 @@ export default function LoginPage() {
   return (
       <>
         {/*https://getbootstrap.com/docs/5.3/forms/form-control/*/}
-        <style jsx global>{`body { background: #EBD7FA;}`}</style>
-        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh'}}>
-          <form onSubmit={handleSubmit(onFormSubmit)}>
-            <div style={{margin:'20px 20px 20px 43px'}}>
-              <Image src="/logo2.jpg" width={180} height={140} />
-            </div>
+        <div className="has-bg-img" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '1px'}}>
+          <img className="bg-img" src="/background.jpg" alt="background" />
+        </div>
 
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">用户名</span>
-              <input type="text" className="form-control" aria-label="用户名"
-                     aria-describedby="basic-addon1"/>
-            </div>
+        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '80vh'}}>
+            <form onSubmit={handleSubmit(onFormSubmit)}>
+                <div style={{margin:'20px 20px 20px 43px'}}>
+                  <Image src="/logo2.jpg" width={170} height={140} alt="logo2"/>
+                </div>
+                <div className="input-group mb-3">
+                  <span className="input-group-text" id="basic-addon1">用户名</span>
+                  <input type="text" className="form-control" aria-label="用户名"
+                         aria-describedby="basic-addon1"/>
+                </div>
 
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">密码</span>
-              <input type="text" className="form-control" aria-label="密码"
-                     aria-describedby="basic-addon1"/>
-            </div>
+                <div className="input-group mb-3">
+                  <span className="input-group-text" id="basic-addon1">密码</span>
+                  <input type="text" className="form-control" aria-label="密码"
+                         aria-describedby="basic-addon1"/>
+                </div>
 
-            <button
-              type="submit"
-              className="mt-3 disabled:opacity-30 bg-primary hover:bg-primary_hover w-full p-1 border-0 rounded-md text-white text-base m-auto px-2"
-              style={{display: 'flex', justifyContent: 'center',}}
-            >
-              登入
-            </button>
-
-          </form>
+                <button
+                  type="submit"
+                  className="mt-3 disabled:opacity-30 bg-primary hover:bg-primary_hover w-full p-1 border-0 rounded-md text-white text-base m-auto px-2"
+                  style={{display: 'flex', justifyContent: 'center',}}
+                >
+                  登入
+                </button>
+              </form>
         </div>
       </>
   );
