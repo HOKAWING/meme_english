@@ -40,7 +40,7 @@ export default function LoginPage() {
 
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '80vh'}}>
             <form onSubmit={handleSubmit(onFormSubmit)}>
-                <div style={{margin:'20px 20px 20px 43px'}}>
+                <div style={{margin:'20px 20px 20px 53px'}}>
                   <Image src="/logo2.jpg" width={170} height={140} alt="logo2"/>
                 </div>
                 <div className="input-group mb-3">
