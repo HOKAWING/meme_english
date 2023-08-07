@@ -34,9 +34,14 @@ export default function LoginPage() {
   return (
       <>
         {/*https://getbootstrap.com/docs/5.3/forms/form-control/*/}
-        {/*<div className="has-bg-img" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '1px', width: '1px'}}>*/}
-        {/*  <img className="bg-img" src="/background.jpg" alt="background" />*/}
-        {/*</div>*/}
+        <div style={{
+            zIndex: -1,
+            position: "fixed",
+            width: "100vw",
+            height: "100vh"
+        }}>
+            <img src="/background.jpg" alt="background" layout ="fill" objectFit ='cover'/>
+        </div>
 
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '80vh'}}>
             <form onSubmit={handleSubmit(onFormSubmit)}>
