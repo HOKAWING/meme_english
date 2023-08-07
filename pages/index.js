@@ -1,5 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import {useRouter} from 'next/router'
 export default function HomePage() {
+    const router = useRouter()
+
+    const book_now = () => {
+        router.push('/login')
+    }
+
   return (
     <>
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -43,6 +50,9 @@ export default function HomePage() {
                         </div>
                 </div>
             </div>
+        </div>
+        <div class="d-grid gap-2">
+            <button className="btn btn-primary" type="button" onClick={book_now}>Book Now</button>
         </div>
     </>
   );
