@@ -35,12 +35,15 @@ export default function HomePage() {
                 <section class="jumbotron text-center">
                     <div class="container">
                         <h1 class="jumbotron-heading">Learn to speak a language with confidence</h1>
+                        <p/>
                         <p class="lead text-muted">
                             Meme Talke offers professional online language tutors and teachers from around the world. Have fun learning English!
                         </p>
                         <p>
                         </p>
-                        <div class="ratio ratio-21x9">
+                        <p>
+                        </p>
+                        <div class="ratio ratio-16x9">
                             <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
                                     allowFullScreen></iframe>
                         </div>
