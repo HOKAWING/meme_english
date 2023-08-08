@@ -27,8 +27,10 @@ export default function HomePage() {
             </div>
         </header>
 
-        <main role="main">
+        <p/>
+        <p/>
 
+        <main role="main">
             <section class="jumbotron text-center">
                 <div class="container">
                     <h1 class="jumbotron-heading">Album example</h1>
@@ -36,8 +38,6 @@ export default function HomePage() {
                         creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it
                         entirely.</p>
                     <p>
-                        <a href="#" className="btn btn-primary my-2">Main call to action</a>
-                        <a href="#" className="btn btn-secondary my-2">Secondary action</a>
                     </p>
                 </div>
             </section>
@@ -72,7 +72,7 @@ export default function HomePage() {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img className="card-img-top"
+                                <img src="/images/teacher1.jpg" className="card-img-top"
                                      data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                      alt="Card image cap"/>
                                     <div class="card-body">
@@ -95,77 +95,7 @@ export default function HomePage() {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img className="card-img-top"
-                                     data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-                                     alt="Card image cap"/>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural lead-in to additional content. This content is a little bit
-                                            longer.</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button"
-                                                        className="btn btn-sm btn-outline-secondary">View
-                                                </button>
-                                                <button type="button"
-                                                        className="btn btn-sm btn-outline-secondary">Edit
-                                                </button>
-                                            </div>
-                                            <small class="text-muted">9 mins</small>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="card mb-4 shadow-sm">
-                                <img className="card-img-top"
-                                     data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-                                     alt="Card image cap"/>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural lead-in to additional content. This content is a little bit
-                                            longer.</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button"
-                                                        className="btn btn-sm btn-outline-secondary">View
-                                                </button>
-                                                <button type="button"
-                                                        className="btn btn-sm btn-outline-secondary">Edit
-                                                </button>
-                                            </div>
-                                            <small class="text-muted">9 mins</small>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 shadow-sm">
-                                <img className="card-img-top"
-                                     data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-                                     alt="Card image cap"/>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural lead-in to additional content. This content is a little bit
-                                            longer.</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button"
-                                                        className="btn btn-sm btn-outline-secondary">View
-                                                </button>
-                                                <button type="button"
-                                                        className="btn btn-sm btn-outline-secondary">Edit
-                                                </button>
-                                            </div>
-                                            <small class="text-muted">9 mins</small>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 shadow-sm">
-                                <img className="card-img-top"
+                                <img src="/images/teacher1.jpg" className="card-img-top"
                                      data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                      alt="Card image cap"/>
                                     <div class="card-body">
@@ -189,7 +119,7 @@ export default function HomePage() {
 
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img className="card-img-top"
+                                <img src="/images/teacher1.jpg" className="card-img-top"
                                      data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                      alt="Card image cap"/>
                                     <div class="card-body">
@@ -212,7 +142,7 @@ export default function HomePage() {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img className="card-img-top"
+                                <img src="/images/teacher1.jpg" className="card-img-top"
                                      data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                      alt="Card image cap"/>
                                     <div class="card-body">
@@ -235,7 +165,77 @@ export default function HomePage() {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img className="card-img-top"
+                                <img src="/images/teacher1.jpg" className="card-img-top"
+                                     data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                     alt="Card image cap"/>
+                                    <div class="card-body">
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit
+                                            longer.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                        className="btn btn-sm btn-outline-secondary">View
+                                                </button>
+                                                <button type="button"
+                                                        className="btn btn-sm btn-outline-secondary">Edit
+                                                </button>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="/images/teacher1.jpg" className="card-img-top"
+                                     data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                     alt="Card image cap"/>
+                                    <div class="card-body">
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit
+                                            longer.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                        className="btn btn-sm btn-outline-secondary">View
+                                                </button>
+                                                <button type="button"
+                                                        className="btn btn-sm btn-outline-secondary">Edit
+                                                </button>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="/images/teacher1.jpg" className="card-img-top"
+                                     data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                     alt="Card image cap"/>
+                                    <div class="card-body">
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit
+                                            longer.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                        className="btn btn-sm btn-outline-secondary">View
+                                                </button>
+                                                <button type="button"
+                                                        className="btn btn-sm btn-outline-secondary">Edit
+                                                </button>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="/images/teacher1.jpg" className="card-img-top"
                                      data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                      alt="Card image cap"/>
                                     <div class="card-body">
@@ -261,51 +261,27 @@ export default function HomePage() {
             </div>
         </main>
 
-        {/*<div class="row row-cols-1 row-cols-md-3 g-4">*/}
-        {/*    <div class="col">*/}
-        {/*        <div class="card">*/}
-        {/*            <img src="/images/teacher1.jpg" className="card-img-top" alt="..."/>*/}
-        {/*                <div class="card-body">*/}
-        {/*                    <h5 class="card-title">Card title</h5>*/}
-        {/*                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in*/}
-        {/*                        to additional content. This content is a little bit longer.</p>*/}
-        {/*                </div>*/}
-        {/*        </div>*/}
-        {/*    </div>*/}
-        {/*    <div class="col">*/}
-        {/*        <div class="card">*/}
-        {/*            <img src="/images/teacher2.jpg" className="card-img-top" alt="..."/>*/}
-        {/*                <div class="card-body">*/}
-        {/*                    <h5 class="card-title">Card title</h5>*/}
-        {/*                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in*/}
-        {/*                        to additional content. This content is a little bit longer.</p>*/}
-        {/*                </div>*/}
-        {/*        </div>*/}
-        {/*    </div>*/}
-        {/*    <div class="col">*/}
-        {/*        <div class="card">*/}
-        {/*            <img src="/images/teacher3.jpg" className="card-img-top" alt="..."/>*/}
-        {/*                <div class="card-body">*/}
-        {/*                    <h5 class="card-title">Card title</h5>*/}
-        {/*                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in*/}
-        {/*                        to additional content.</p>*/}
-        {/*                </div>*/}
-        {/*        </div>*/}
-        {/*    </div>*/}
-        {/*    <div class="col">*/}
-        {/*        <div class="card">*/}
-        {/*            <img src="/images/teacher4.jpg" className="card-img-top" alt="..."/>*/}
-        {/*                <div class="card-body">*/}
-        {/*                    <h5 class="card-title">Card title</h5>*/}
-        {/*                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in*/}
-        {/*                        to additional content. This content is a little bit longer.</p>*/}
-        {/*                </div>*/}
-        {/*        </div>*/}
-        {/*    </div>*/}
-        {/*</div>*/}
-        <div class="d-grid gap-2">
-            <button className="btn btn-primary" type="button" onClick={book_now}>Book Now</button>
+        <div class="d-grid gap-2 container">
+            <button type="button" className="btn btn-info" onClick={book_now}>Book Now</button>
         </div>
+
+        <p/>
+        <p/>
+
+        <footer class="text-muted">
+          <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                  <a href="#">Back to top</a>
+                </div>
+              </div>
+          </div>
+        </footer>
+        <p/>
     </>
   );
 }
