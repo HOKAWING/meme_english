@@ -55,7 +55,7 @@ export default function HomePage() {
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <div class="alert alert-info" role="alert">
-                                    Our Best Teacher!!!
+                                    Our Best Teacher!!
                                 </div>
                             </div>
                             <div class="panel-body">
@@ -233,6 +233,8 @@ export default function HomePage() {
                     </div>
                 </div>
             </footer>
+            <p/>
+            <p/>
             <p/>
         </>
     );
