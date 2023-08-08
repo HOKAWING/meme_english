@@ -73,7 +73,7 @@ export default function Teacher() {
                                     <div class="ms-2 me-auto">
                                         <div class="fw-bold">
                                             <div class="text-secondary">Karmiel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                                            <span class="text-primary">預約時間：2023-08-08&nbsp;&nbsp;&nbsp;16:00-16:25</span>
+                                            <span class="text-primary">2023-08-08&nbsp;&nbsp;&nbsp;16:00-16:25</span>
                                         </div>
                                         <img src="/images/teacher1.jpg" alt="Card image cap" width="20%"/>
                                     </div>
