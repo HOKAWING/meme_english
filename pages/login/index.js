@@ -28,6 +28,7 @@ export default function LoginPage() {
 
   async function onFormSubmit(data) {
     console.log('data: ', data);
+    router.push("/teacher")
     setError(null);
   }
 
