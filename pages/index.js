@@ -67,10 +67,7 @@ export default function HomePage() {
                                                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                                  alt="Card image cap"/>
                                             <div class="card-body">
-                                                <p class="card-text">This is a wider card with supporting text below as
-                                                    a
-                                                    natural lead-in to additional content. This content is a little bit
-                                                    longer.</p>
+                                                <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
                                                         <button type="button"
@@ -80,7 +77,7 @@ export default function HomePage() {
                                                                 className="btn btn-sm btn-outline-secondary">View
                                                         </button>
                                                     </div>
-                                                    <small class="text-muted">9 mins</small>
+                                                    <small class="text-muted">3 years</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -91,10 +88,7 @@ export default function HomePage() {
                                                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                                  alt="Card image cap"/>
                                             <div class="card-body">
-                                                <p class="card-text">This is a wider card with supporting text below as
-                                                    a
-                                                    natural lead-in to additional content. This content is a little bit
-                                                    longer.</p>
+                                                <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
                                                         <button type="button"
@@ -104,7 +98,7 @@ export default function HomePage() {
                                                                 className="btn btn-sm btn-outline-secondary">View
                                                         </button>
                                                     </div>
-                                                    <small class="text-muted">9 mins</small>
+                                                    <small class="text-muted">3 years</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -115,10 +109,7 @@ export default function HomePage() {
                                                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                                  alt="Card image cap"/>
                                             <div class="card-body">
-                                                <p class="card-text">This is a wider card with supporting text below as
-                                                    a
-                                                    natural lead-in to additional content. This content is a little bit
-                                                    longer.</p>
+                                                <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
                                                         <button type="button"
@@ -128,7 +119,7 @@ export default function HomePage() {
                                                                 className="btn btn-sm btn-outline-secondary">View
                                                         </button>
                                                     </div>
-                                                    <small class="text-muted">9 mins</small>
+                                                    <small class="text-muted">3 years</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -140,10 +131,7 @@ export default function HomePage() {
                                                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                                  alt="Card image cap"/>
                                             <div class="card-body">
-                                                <p class="card-text">This is a wider card with supporting text below as
-                                                    a
-                                                    natural lead-in to additional content. This content is a little bit
-                                                    longer.</p>
+                                                <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
                                                         <button type="button"
@@ -153,7 +141,7 @@ export default function HomePage() {
                                                                 className="btn btn-sm btn-outline-secondary">View
                                                         </button>
                                                     </div>
-                                                    <small class="text-muted">9 mins</small>
+                                                    <small class="text-muted">3 years</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -164,10 +152,7 @@ export default function HomePage() {
                                                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                                  alt="Card image cap"/>
                                             <div class="card-body">
-                                                <p class="card-text">This is a wider card with supporting text below as
-                                                    a
-                                                    natural lead-in to additional content. This content is a little bit
-                                                    longer.</p>
+                                                <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
                                                         <button type="button"
@@ -177,7 +162,7 @@ export default function HomePage() {
                                                                 className="btn btn-sm btn-outline-secondary">View
                                                         </button>
                                                     </div>
-                                                    <small class="text-muted">9 mins</small>
+                                                    <small class="text-muted">3 years</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -188,10 +173,7 @@ export default function HomePage() {
                                                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
                                                  alt="Card image cap"/>
                                             <div class="card-body">
-                                                <p class="card-text">This is a wider card with supporting text below as
-                                                    a
-                                                    natural lead-in to additional content. This content is a little bit
-                                                    longer.</p>
+                                                <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
                                                         <button type="button"
@@ -201,7 +183,7 @@ export default function HomePage() {
                                                                 className="btn btn-sm btn-outline-secondary">View
                                                         </button>
                                                     </div>
-                                                    <small class="text-muted">9 mins</small>
+                                                    <small class="text-muted">3 years</small>
                                                 </div>
                                             </div>
                                         </div>
