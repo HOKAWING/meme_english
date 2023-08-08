@@ -35,14 +35,14 @@ export default function LoginPage() {
   return (
       <>
         {/*https://getbootstrap.com/docs/5.3/forms/form-control/*/}
-        <div style={{
-            zIndex: -1,
-            position: "fixed",
-            width: "100vw",
-            height: "100vh"
-        }}>
-            <img src="/background.jpg" alt="background" layout ="fill" objectFit ='cover'/>
-        </div>
+        {/*<div style={{*/}
+        {/*    zIndex: -1,*/}
+        {/*    position: "fixed",*/}
+        {/*    width: "100vw",*/}
+        {/*    height: "100vh"*/}
+        {/*}}>*/}
+        {/*    <img src="/background.jpg" alt="background" layout ="fill" objectFit ='cover'/>*/}
+        {/*</div>*/}
 
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '80vh'}}>
             <form onSubmit={handleSubmit(onFormSubmit)}>
