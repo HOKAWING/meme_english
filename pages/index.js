@@ -70,7 +70,7 @@ export default function HomePage() {
                                                 <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
-                                                        <button type="button"
+                                                        <button type="button" onClick={book_now}
                                                                 className="btn btn-sm btn-outline-secondary">Book
                                                         </button>
                                                         <button type="button"
@@ -91,7 +91,7 @@ export default function HomePage() {
                                                 <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
-                                                        <button type="button"
+                                                        <button type="button" onClick={book_now}
                                                                 className="btn btn-sm btn-outline-secondary">Book
                                                         </button>
                                                         <button type="button"
@@ -112,7 +112,7 @@ export default function HomePage() {
                                                 <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
-                                                        <button type="button"
+                                                        <button type="button" onClick={book_now}
                                                                 className="btn btn-sm btn-outline-secondary">Book
                                                         </button>
                                                         <button type="button"
@@ -134,7 +134,7 @@ export default function HomePage() {
                                                 <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
-                                                        <button type="button"
+                                                        <button type="button" onClick={book_now}
                                                                 className="btn btn-sm btn-outline-secondary">Book
                                                         </button>
                                                         <button type="button"
@@ -155,7 +155,7 @@ export default function HomePage() {
                                                 <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
-                                                        <button type="button"
+                                                        <button type="button" onClick={book_now}
                                                                 className="btn btn-sm btn-outline-secondary">Book
                                                         </button>
                                                         <button type="button"
@@ -176,7 +176,7 @@ export default function HomePage() {
                                                 <p class="card-text">Hi everyone, Let me greet you all! It's my job to assist you to achieve the results you need and want in your exams.I will support and guide you to exploit English for every situation.</p>
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="btn-group">
-                                                        <button type="button"
+                                                        <button type="button" onClick={book_now}
                                                                 className="btn btn-sm btn-outline-secondary">Book
                                                         </button>
                                                         <button type="button"
